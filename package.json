@@ -1,0 +1,26 @@
+{
+  "name": "docker-graphql-app",
+  "version": "1.0.0",
+  "description": "using graphql with apollo server in a docker container",
+  "main": "index.js",
+  "dependencies": {
+    "graphql": "^14.4.2",
+    "apollo-server": "^2.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node apollo.server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ealipio/docker-graphql-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ealipio/docker-graphql-app/issues"
+  },
+  "homepage": "https://github.com/ealipio/docker-graphql-app#readme"
+}
