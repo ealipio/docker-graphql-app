@@ -4,8 +4,10 @@
   "description": "using graphql with apollo server in a docker container",
   "main": "index.js",
   "dependencies": {
-    "graphql": "^14.4.2",
-    "apollo-server": "^2.8.1"
+    "apollo-server": "^2.8.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.4.2"
   },
   "devDependencies": {},
   "scripts": {
