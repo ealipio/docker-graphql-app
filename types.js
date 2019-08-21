@@ -58,7 +58,7 @@ const resolvers = () => {
     return db.cars.filter(car => car.type === args.type);
   };
   const carsById = args => {
-    return db.cars.filter(car => car.type === args.id)[0];
+    return db.cars.filter(car => car.id === args.id)[0];
   };
 
   return { carsByType, carsById };
